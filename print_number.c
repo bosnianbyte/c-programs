@@ -1,4 +1,4 @@
-// A program that prints a sentence
+// A program that prints a number
 
 #include <stdio.h>
 

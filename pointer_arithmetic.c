@@ -23,6 +23,15 @@ int main (void)
     p -= 5; // Changes p to point to the 4th element.
     printf("%d\n", *p);
 
+    array[4] = 100;
+    array[3] = 50;
+    
+    int i;
+    i = *p + *q; // Adds the 4th element and the 5th element within our array
+    printf("%d\n", i);
+    i = *q - *p;
+    printf("%d\n", i); // Subtracts the 4th element from the 5th element
+
     printf("\n");
     return 0;
 }

@@ -10,6 +10,9 @@ int main (void)
     printf("The memory address of our number is %p\n", &number);
     printf("The value of pNumber is %p\n", pNumber);
 
+    printf("The size of number is %d byte(s)\n", sizeof(number));
+    printf("The size of pNumber is %d byte(s)\n", sizeof(pNumber));
+
     printf("The value of our number is %d\n", number);
     printf("The value at the stored address is %d\n", *pNumber);
 

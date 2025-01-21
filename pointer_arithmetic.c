@@ -29,8 +29,8 @@ int main (void)
     int i;
     i = *p + *q; // Adds the 4th element and the 5th element within our array
     printf("%d\n", i);
-    i = *q - *p;
-    printf("%d\n", i); // Subtracts the 4th element from the 5th element
+    i = *q - *p; // Subtracts the 4th element from the 5th element
+    printf("%d\n", i);
 
     printf("\n");
     return 0;
